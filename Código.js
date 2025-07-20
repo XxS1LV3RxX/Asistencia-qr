@@ -116,11 +116,9 @@ function doGet(e) {
     if (semaforoColor === "yellow") {
         semaforo.setBackground("yellow");
     } 
-    // Si llegó temprano (semaforo verde), mantener verde
     else if (semaforoColor === "green") {
         semaforo.setBackground("green");
     } 
-    // Si no hay registro de entrada, marcar como rojo
     else if (!horaEntrada) {
         semaforo.setBackground("red");
     } 
