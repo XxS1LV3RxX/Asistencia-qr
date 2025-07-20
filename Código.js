@@ -109,7 +109,6 @@ function doGet(e) {
     }
     sheetAsistencia.getRange(rowIndex, 6).setValue(horaFormateada);
 
-    // Obtener el color actual del semáforo
     var semaforoColor = semaforo.getBackground();
 
 
